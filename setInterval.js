@@ -9,10 +9,10 @@ let count = 0;
 const clockId =  setInterval(()=>{
     count++;
     // count = count + 1;
-    console.log(count)
+    // console.log(count)
 
     if(count >= 5){
-        clearInterval(clockId)
+        // clearInterval(clockId)
     }
     
 }, 3000)
